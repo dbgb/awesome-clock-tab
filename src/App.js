@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div>
-            <h1><Clock class="clock" format="HH:mm:ss" ticking={true} interval={1000} /></h1>
+            <Clock className="clock" format="HH:mm:ss" ticking={true} interval={1000} />
           </div>
           <img src={logo} className="App-logo" alt="logo" />
         </header>

@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 90s linear;
   height: 25vmin;
 }
 
@@ -11,6 +11,7 @@
   background-color: #111;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -23,7 +24,7 @@
 }
 
 .clock {
-  font-size: 200%;
+  font-size: 12vw;
 }
 
 @keyframes App-logo-spin {
