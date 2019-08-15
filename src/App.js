@@ -8,15 +8,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div>
-            <Clock
-              className="clock"
-              format="HH:mm:ss"
-              ticking={true}
-              interval={1000}
-            />
+          <Clock
+            className="clock"
+            format="HH:mm:ss"
+            ticking={true}
+            interval={1000}
+          />
+          <div className="App-logo-container">
+            <img src={logo} className="App-logo" alt="logo" />
           </div>
-          <img src={logo} className="App-logo" alt="logo" />
         </header>
       </div>
     );
