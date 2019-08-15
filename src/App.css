@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 90s linear;
   margin-top: 5vmin;
@@ -9,6 +5,7 @@
 }
 
 .App-header {
+  color: goldenrod;
   background-color: #111;
   min-height: 100vh;
   display: flex;
@@ -16,16 +13,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: goldenrod;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .clock {
-  font-size: calc(10px + 20vmin);
+  font-size: 20vmin;
 }
 
 @keyframes App-logo-spin {
