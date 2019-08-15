@@ -4,7 +4,8 @@
 
 .App-logo {
   animation: App-logo-spin infinite 90s linear;
-  height: 25vmin;
+  margin-top: 5vmin;
+  height: 15vmin;
 }
 
 .App-header {
@@ -16,7 +17,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: beige;
+  color: goldenrod;
 }
 
 .App-link {
@@ -24,7 +25,7 @@
 }
 
 .clock {
-  font-size: 12vw;
+  font-size: calc(10px + 20vmin);
 }
 
 @keyframes App-logo-spin {

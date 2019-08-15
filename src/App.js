@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Clock from "react-live-clock";
-import logo from "./logo.svg";
+import logo from "./img/logo.svg";
 import "./App.css";
 
 class App extends Component {
