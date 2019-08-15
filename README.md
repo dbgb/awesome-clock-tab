@@ -1,4 +1,4 @@
-# Awesome Clock Tab
+# Awesome Clock Tab [![Netlify Status](https://api.netlify.com/api/v1/badges/65fac3e8-2342-40ce-a4c3-c0c7a25f5c90/deploy-status)](https://app.netlify.com/sites/awesome-clock/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
