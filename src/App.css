@@ -17,12 +17,17 @@
 }
 
 .App-logo-container {
+  user-select: none;
+  margin-top: 2vmin;
   animation: bounce 1.5s infinite cubic-bezier(0.5, 0.05, 1, 0.5) alternate;
-  /* margin-top: 5vmin; */
+}
+
+.App-logo-container.paused {
+  animation-play-state: paused;
 }
 
 .App-logo {
-  animation: spin infinite 30s linear;
+  animation: spin infinite 20s linear;
   height: 15vmin;
 }
 
@@ -38,5 +43,6 @@
 }
 
 .clock {
-  font-size: 20vmin;
+  user-select: none;
+  font-size: 22vmin;
 }

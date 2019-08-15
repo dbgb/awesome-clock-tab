@@ -4,6 +4,17 @@ import logo from "./img/logo.svg";
 import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      animated: true
+    };
+  }
+
+  toggleAnimation = () => {
+    this.setState({ animated: !this.state.animated });
+  };
+
   render() {
     return (
       <div className="App">
@@ -14,8 +25,19 @@ class App extends Component {
             ticking={true}
             interval={1000}
           />
-          <div className="App-logo-container">
-            <img src={logo} className="App-logo" alt="logo" />
+          <div
+            className={
+              this.state.animated
+                ? "App-logo-container"
+                : "App-logo-container paused"
+            }
+          >
+            <img
+              onClick={this.toggleAnimation}
+              src={logo}
+              className="App-logo"
+              alt="awesome face logo"
+            />
           </div>
         </header>
       </div>
