@@ -16,6 +16,10 @@
   }
 }
 
+.App {
+  overflow: hidden;
+}
+
 .App-logo-container {
   user-select: none;
   margin-top: 2vmin;
