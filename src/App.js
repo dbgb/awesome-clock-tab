@@ -34,6 +34,7 @@ class App extends Component {
           >
             <img
               onClick={this.toggleAnimation}
+              onDragStart={e => e.preventDefault()}
               src={logo}
               className="App-logo"
               alt="awesome face logo"
