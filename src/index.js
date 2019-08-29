@@ -4,7 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-console.info(`Source code available @ https://github.com/dbgb/awesome-clock-tab`);
+console.info(
+  `Source code available @ https://github.com/dbgb/awesome-clock-tab`
+);
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
