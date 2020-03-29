@@ -24,6 +24,7 @@ class App extends Component {
             format="HH:mm:ss"
             ticking={true}
             interval={1000}
+            timezone={"Europe/London"}
           />
           <div
             className={
