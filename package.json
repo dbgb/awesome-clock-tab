@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.26.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-live-clock": "^3.0.0",
