@@ -10,7 +10,7 @@
     "react-scripts": "^3.4.1"
   },
   "devDependencies": {
-    "serialize-javascript": ">=2.1.1"
+    "serialize-javascript": ">=3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
