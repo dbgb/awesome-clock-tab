@@ -6,7 +6,7 @@
     "moment": "^2.29.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-live-clock": "^3.0.0",
+    "react-live-clock": "^6.0.7",
     "react-scripts": "^3.4.1"
   },
   "devDependencies": {
